@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Agriboost - Home</title>
+    <link rel="stylesheet" href="style.css">
+    <script defer src="script.js"></script>
+</head>
+<body>
+    <header>
+        <h1 class="logo">Agriboost</h1>
+        <nav>
+            <ul>
+                <li><a href="index.html" class="active">Home</a></li>
+                <li><a href="moister.html">Moisture Sensor</a></li>
+                <li><a href="notifications.html">Notifications</a></li>
+                <li><a href="settings.html">Settings</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section class="hero">
+        <div class="hero-content">
+            <h2>Manage Your Fields with Precision</h2>
+            <p>Start drone spraying tasks and monitor soil moisture effortlessly.</p>
+            <button id="startSpraying">Start Spraying</button>
+            <p id="droneStatus">Status: No active tasks</p>
+        </div>
+    </section>
+
+    <section class="moisture-section">
+        <h2>Current Soil Moisture</h2>
+        <div class="circular-progress">
+            <span id="moistureValue">78%</span>
+        </div>
+    </section>
+
+    <section class="notifications">
+        <h2>Recent Notifications</h2>
+        <ul>
+            <li>✅ Drone task completed - Field A (2 hours ago)</li>
+            <li>⚠️ Moisture below 50% - Field B (1 hour ago)</li>
+        </ul>
+    </section>
+
+    <footer>
+        <p>© 2024 Agriboost. All rights reserved.</p>
+    </footer>
+</body>
+</html>
